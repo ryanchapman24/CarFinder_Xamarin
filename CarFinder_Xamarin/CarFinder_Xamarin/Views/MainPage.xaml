@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarFinder_Xamarin.MainPage"
+             Title="Alright Alright Alright"
+             BackgroundColor="Beige"
+             Opacity="0.8">
+    <!--<ContentPage.Content>
+        <ScrollView>-->
+            <StackLayout>
+                <StackLayout>
+                    <Picker x:Name="pickerYears" VerticalOptions="CenterAndExpand" Title="Years" />
+                    <Picker x:Name="pickerMakes" VerticalOptions="CenterAndExpand" Title="Makes" />
+                    <Picker x:Name="pickerModels" VerticalOptions="CenterAndExpand" Title="Models" />
+                </StackLayout>
+                <ActivityIndicator x:Name="busyIndicator" />
+                <Label x:Name="carLabel" Text="" HorizontalTextAlignment="Center" />
+                <Image x:Name="carImage" Source="" />
+                <StackLayout>
+                    <Button x:Name="btnRecalls" Text="Recalls" Clicked="onRecallsClicked" VerticalOptions="CenterAndExpand"
+                            TextColor="White" BackgroundColor="Green"></Button>
+                    <Button x:Name="btnRefresh" Text="New Search" Clicked="onRefreshClicked" VerticalOptions="EndAndExpand"
+                            TextColor="White" BackgroundColor="Green"></Button>
+                </StackLayout>
+            </StackLayout>
+        <!--</ScrollView>
+    </ContentPage.Content>-->
+</ContentPage>
